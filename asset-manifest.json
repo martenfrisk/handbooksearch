@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/handbooksearch/static/css/main.d2d7cd36.chunk.css",
-    "main.js": "/handbooksearch/static/js/main.1da0e43f.chunk.js",
-    "main.js.map": "/handbooksearch/static/js/main.1da0e43f.chunk.js.map",
+    "main.js": "/handbooksearch/static/js/main.0fd11197.chunk.js",
+    "main.js.map": "/handbooksearch/static/js/main.0fd11197.chunk.js.map",
     "runtime-main.js": "/handbooksearch/static/js/runtime-main.1736a8e7.js",
     "runtime-main.js.map": "/handbooksearch/static/js/runtime-main.1736a8e7.js.map",
     "static/js/2.6cac530a.chunk.js": "/handbooksearch/static/js/2.6cac530a.chunk.js",
     "static/js/2.6cac530a.chunk.js.map": "/handbooksearch/static/js/2.6cac530a.chunk.js.map",
     "index.html": "/handbooksearch/index.html",
-    "precache-manifest.ab9d878ab20f54b6fb4e5efa7dd1188a.js": "/handbooksearch/precache-manifest.ab9d878ab20f54b6fb4e5efa7dd1188a.js",
+    "precache-manifest.f6304b1dc03647f8d7d3bb7abbd41b95.js": "/handbooksearch/precache-manifest.f6304b1dc03647f8d7d3bb7abbd41b95.js",
     "service-worker.js": "/handbooksearch/service-worker.js",
     "static/css/main.d2d7cd36.chunk.css.map": "/handbooksearch/static/css/main.d2d7cd36.chunk.css.map",
     "static/js/2.6cac530a.chunk.js.LICENSE.txt": "/handbooksearch/static/js/2.6cac530a.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1736a8e7.js",
     "static/js/2.6cac530a.chunk.js",
     "static/css/main.d2d7cd36.chunk.css",
-    "static/js/main.1da0e43f.chunk.js"
+    "static/js/main.0fd11197.chunk.js"
   ]
 }
