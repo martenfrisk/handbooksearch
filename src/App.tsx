@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { ReactElement } from 'react'
+import { HashRouter as Router, Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Search from './components/search'
+import Layout from './components/layout'
+import Ep from './components/ep'
+import './styles/main.css'
+
+function App(props: any): ReactElement {
+	return (
+		<React.Fragment>
+			<Router>
+				<Layout />
+				<div className="container w-full px-2 mx-auto md:px-10 lg:w-1/2">
+					<Route exact path="/">
+						<Search />
+					</Route>
+					
+          <Route path="/ep/:ep">
+            <Ep />
+          </Route>
+				</div>
+			</Router>
+		</React.Fragment>
+	)
 }
 
-export default App;
+export default App

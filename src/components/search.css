@@ -1,0 +1,19 @@
+
+.react-autosuggest__input {
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  border: 0.5px solid rgba(149, 149, 149, 0.7);
+  border-radius: 0;
+}
+
+.highlight {
+  color: rgb(55, 112, 177);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
