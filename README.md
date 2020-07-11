@@ -1,3 +1,11 @@
+Pull requests and general suggestions are very welcome!
+I opted for react-autosuggest for the search component because I wasn't happy with neither Searchkit nor Reactivesearch. 
+A different package might work better. 
+
+The code in general is a big mess so you'll have to excuse me. 
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
