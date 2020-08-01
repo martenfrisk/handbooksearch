@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-import { HashRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route, Redirect } from 'react-router-dom'
 
 import Search from './components/search'
 import Layout from './components/layout'
@@ -15,7 +15,9 @@ function App(props: any): ReactElement {
 					<Route exact path="/">
 						<Search />
 					</Route>
-					
+					<Route path="/subreddit">
+					<Redirect to="/?q=subreddit" />
+					</Route>
           <Route path="/ep/:ep">
             <Ep />
           </Route>

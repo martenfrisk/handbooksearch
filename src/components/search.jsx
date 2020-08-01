@@ -14,7 +14,7 @@ import { getRandomInt, randomQuery, ExtLink, secToMins } from './utils'
 const Search = (props) => {
 	let { history } = props
 	let initValue = randomQuery[getRandomInt(randomQuery.length)]
-	const [ value, setValue ] = useState(history.location.search !== undefined ? qs.parse(history.location.search)['?q'] : initValue)
+	const [ value, setValue ] = useState(history.location.search ? qs.parse(history.location.search)['?q'] : initValue)
 	const [ suggestions, setSuggestions ] = useState([])
 	const [ exact, setExact ] = useState(false)
 	const [ showExactInfo, setShowExactInfo ] = useState(false)
@@ -104,13 +104,16 @@ const Search = (props) => {
 										pathname: `/ep/${encodeURIComponent(suggestion.Episode)}`,
 										hash: `#:~:text=${secToMins(suggestion.startTime)}`
 									}}
-									className="flex flex-wrap items-center justify-start pt-1 mr-2 text-base text-gray-700"
+									className="flex flex-wrap items-end justify-start pt-1 mr-2 text-base text-gray-700 border-b border-white border-dotted hover:border-gray-400"
 								>
 									<div className="mr-2">
 										{suggestion.Episode}
 									</div>
-									<div>
+									<div className="mr-2">
 										({date.format('YYYY MMM DD')})
+									</div>
+									<div className="text-xs">
+										full ep
 									</div>
 								</Link>
 						<div className="flex items-center font-mono text-right text-gray-600">
@@ -176,8 +179,7 @@ const Search = (props) => {
 
 	return (
 		<div>
-			<p className="mx-2 text-center">You might have to click the search bar first. Working to fix this.</p>
-			<p className="mx-2 mt-1 text-center">Pro Version eps will be added soon!</p>
+			<p className="mx-2 text-center">Pro Version eps will be added soon!</p>
 			<div className="flex flex-wrap items-center px-2 mt-2 md:px-2 md:mt-2">
 				<button className="px-2 mr-4 text-sm text-white bg-blue-700 rounded" onClick={handleRandom}>
 					Get random query
