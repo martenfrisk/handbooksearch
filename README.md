@@ -1,8 +1,10 @@
-Pull requests and general suggestions are very welcome!
-I opted for react-autosuggest for the search component because I wasn't happy with neither Searchkit nor Reactivesearch. 
-A different package might work better. 
+'Hollywood Handbook search' has shut down due to cost-related reasons.
 
-The code in general is a big mess so you'll have to excuse me. 
+You can download the raw transcripts formatted for Elasticsearch here. You can easily use something like Notepad++ to search the file.
+
+All lines (50mb json): https://mega.nz/file/vfhVEZYZ#6LyDl6JKXb2t6jogKzyNE-J5Izyi2BDy0r4fwTeP69U
+
+All episode titles (20mb json): https://mega.nz/file/jf4h0DzA#hHGiaQW0oJsdcQfyi7EsyH4JnAzUZ_yc4XkZhwi5_rY
 
 ---
 

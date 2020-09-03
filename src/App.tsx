@@ -13,7 +13,7 @@ function App(props: any): ReactElement {
 				<Layout />
 				<div className="container w-full px-2 mx-auto md:px-10 lg:w-1/2">
 					<h1 className="w-full mb-20 text-3xl text-center">'Hollywood Handbook search' has shut down due to cost-related reasons.</h1>
-					<p className="mb-10">You can download the raw transcripts formatted for Elasticsearch here. You can easily use something like Notepad++ to search the file.</p>
+					<p className="mb-10">You can download the raw transcripts formatted for Elasticsearch here. Feel free to use them to make your own search engine or use something like Notepad++ to search the file.</p>
 					<p>All lines (50mb json): <a className="underline font-blue-800" href="https://mega.nz/file/vfhVEZYZ#6LyDl6JKXb2t6jogKzyNE-J5Izyi2BDy0r4fwTeP69U" target="_blank" rel="noopener noreferrer">https://mega.nz/file/vfhVEZYZ#6LyDl6JKXb2t6jogKzyNE-J5Izyi2BDy0r4fwTeP69U</a></p>
 					<p>All episode titles (20mb json): <a className="underline font-blue-800" href="https://mega.nz/file/jf4h0DzA#hHGiaQW0oJsdcQfyi7EsyH4JnAzUZ_yc4XkZhwi5_rY" target="_blank" rel="noopener noreferrer">https://mega.nz/file/jf4h0DzA#hHGiaQW0oJsdcQfyi7EsyH4JnAzUZ_yc4XkZhwi5_rY</a></p>
 					{/* <Route exact path="/">
