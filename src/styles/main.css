@@ -760,10 +760,6 @@ video {
   font-size: 1.5rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-}
-
 .leading-tight {
   line-height: 1.25;
 }
@@ -817,14 +813,6 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .mb-px {

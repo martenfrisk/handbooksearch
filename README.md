@@ -1,10 +1,10 @@
-'Hollywood Handbook search' has shut down due to cost-related reasons.
+# 'Hollywood Handbook search' is back
 
 You can download the raw transcripts formatted for Elasticsearch here. You can easily use something like Notepad++ to search the file.
 
-All lines (50mb json): https://mega.nz/file/vfhVEZYZ#6LyDl6JKXb2t6jogKzyNE-J5Izyi2BDy0r4fwTeP69U
+All lines (50mb json): <https://mega.nz/file/vfhVEZYZ#6LyDl6JKXb2t6jogKzyNE-J5Izyi2BDy0r4fwTeP69U>
 
-All episode titles (20mb json): https://mega.nz/file/jf4h0DzA#hHGiaQW0oJsdcQfyi7EsyH4JnAzUZ_yc4XkZhwi5_rY
+All episode titles (20mb json): <https://mega.nz/file/jf4h0DzA#hHGiaQW0oJsdcQfyi7EsyH4JnAzUZ_yc4XkZhwi5_rY>
 
 ---
 

@@ -29,10 +29,13 @@ const Search = (props) => {
 	}, [])
 
 	const onSuggestionFetchFuzzy = async ({ value }) => {
-		await axios
-			.post(
-				'https://search-podcast-indexer-4gzssr2fnp27pbrx5fbmc4rml4.us-east-1.es.amazonaws.com/paragraphs/_search',
-				{
+		const config = {
+			method: 'post',
+			url: 'https://oin-us-east-1.searchly.com/paragraphs/_search',
+			headers: {
+				'authorization': 'Basic ' + btoa('searchAPI:gqnavy3vfwiu0xqkt4amqouciiidvvle') 
+			},
+			data: {
 					from: 0,
 					size: 99,
 					query: {
@@ -41,33 +44,39 @@ const Search = (props) => {
 							fields: [ 'text', 'Episode' ],
 							fuzziness: 'AUTO'
 						}
-					}
-				}
-			)
+				},
+			},
+		}
+		await axios(config)
 			.then((res) => {
 				const results = res.data.hits.hits.map((h) => h._source)
 				setSuggestions(() => results)
 				// history.push({ search: encodeURIComponent(value) })
 			})
+			.catch(err => console.log(err))
 	}
 
 	const onSuggestionFetchExact = async ({ value }) => {
-		await axios
-			.post(
-				'https://search-podcast-indexer-4gzssr2fnp27pbrx5fbmc4rml4.us-east-1.es.amazonaws.com/paragraphs/_search',
-				{
-					from: 0,
-					size: 99,
-					query: {
-						multi_match: {
-							query: value,
-							fields: [ 'text', 'Episode' ],
-							type: 'phrase',
-							operator: 'and'
-						}
+		const config = {
+			method: 'post',
+			url: 'https://oin-us-east-1.searchly.com/paragraphs/_search',
+			headers: {
+				'authorization': 'Basic ' + btoa('searchAPI:gqnavy3vfwiu0xqkt4amqouciiidvvle') 
+			},
+			data: {
+				from: 0,
+				size: 99,
+				query: {
+					multi_match: {
+						query: value,
+						fields: [ 'text', 'Episode' ],
+						type: 'phrase',
+						operator: 'and'
 					}
 				}
-			)
+			},
+		}
+		await axios(config)
 			.then((res) => {
 				const results = res.data.hits.hits.map((h) => h._source)
 				setSuggestions(() => results)

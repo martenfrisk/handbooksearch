@@ -24,6 +24,7 @@ export default function Layout() {
             </a>
           </div>
         </div>
+          <div className="mt-2 text-sm">You can still download the raw transcripts formatted for Elasticsearch <a className="underline font-blue-800" href="https://github.com/martenfrisk/handbooksearch" target="_blank" rel="noopener noreferrer">here.</a></div>
        
       </div>
       </>
