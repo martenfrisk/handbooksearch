@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/handbooksearch/static/css/main.added99a.chunk.css",
-    "main.js": "/handbooksearch/static/js/main.9c5adcac.chunk.js",
-    "main.js.map": "/handbooksearch/static/js/main.9c5adcac.chunk.js.map",
+    "main.css": "/handbooksearch/static/css/main.64f90765.chunk.css",
+    "main.js": "/handbooksearch/static/js/main.2ef4881e.chunk.js",
+    "main.js.map": "/handbooksearch/static/js/main.2ef4881e.chunk.js.map",
     "runtime-main.js": "/handbooksearch/static/js/runtime-main.3a348877.js",
     "runtime-main.js.map": "/handbooksearch/static/js/runtime-main.3a348877.js.map",
-    "static/js/2.db8fcb3e.chunk.js": "/handbooksearch/static/js/2.db8fcb3e.chunk.js",
-    "static/js/2.db8fcb3e.chunk.js.map": "/handbooksearch/static/js/2.db8fcb3e.chunk.js.map",
+    "static/js/2.23b4840c.chunk.js": "/handbooksearch/static/js/2.23b4840c.chunk.js",
+    "static/js/2.23b4840c.chunk.js.map": "/handbooksearch/static/js/2.23b4840c.chunk.js.map",
     "index.html": "/handbooksearch/index.html",
-    "static/css/main.added99a.chunk.css.map": "/handbooksearch/static/css/main.added99a.chunk.css.map",
-    "static/js/2.db8fcb3e.chunk.js.LICENSE.txt": "/handbooksearch/static/js/2.db8fcb3e.chunk.js.LICENSE.txt"
+    "static/css/main.64f90765.chunk.css.map": "/handbooksearch/static/css/main.64f90765.chunk.css.map",
+    "static/js/2.23b4840c.chunk.js.LICENSE.txt": "/handbooksearch/static/js/2.23b4840c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3a348877.js",
-    "static/js/2.db8fcb3e.chunk.js",
-    "static/css/main.added99a.chunk.css",
-    "static/js/main.9c5adcac.chunk.js"
+    "static/js/2.23b4840c.chunk.js",
+    "static/css/main.64f90765.chunk.css",
+    "static/js/main.2ef4881e.chunk.js"
   ]
 }
