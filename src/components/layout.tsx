@@ -1,4 +1,3 @@
-import React from "react"
 import { Link } from "react-router-dom"
 
 export default function Layout() {
@@ -35,7 +34,7 @@ export default function Layout() {
             </a>
           </div>
         </div>
-        <div className="mt-2 text-sm">
+        {/* <div className="mt-2 text-sm">
           You can still download the raw transcripts formatted for Elasticsearch{" "}
           <a
             className="underline font-blue-800"
@@ -45,7 +44,7 @@ export default function Layout() {
           >
             here.
           </a>
-        </div>
+        </div> */}
       </div>
     </>
   )
