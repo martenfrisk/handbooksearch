@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { ReactElement } from 'react'
 import { HashRouter as Router, Route, Redirect } from 'react-router-dom'
 
