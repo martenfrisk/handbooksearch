@@ -1,3 +1,4 @@
+# New repo: <https://github.com/martenfrisk/newhandbooksearch>
 # 'Hollywood Handbook search' is back
 
 You can download the raw transcripts formatted for Elasticsearch here. You can easily use something like Notepad++ to search the file.
