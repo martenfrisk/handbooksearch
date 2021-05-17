@@ -13,6 +13,7 @@ function App(props: any): ReactElement {
 				<Layout />
 				<div className="container w-full px-2 mx-auto md:px-10 lg:w-1/2">
 					<Route exact path="/">
+					
 						<Search />
 					</Route>
 					<Route path="/subreddit">
